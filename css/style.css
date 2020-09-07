@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box  ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/*================================= header start =================================*/
+
+header{
+    position: relative;
+    padding-top: 106px;
+    padding-bottom: 80px;
+}
+
+.header__title{
+    color: #212121;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+    position: relative;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.header__line{
+    background: #ff8c2c;
+}
+
+.line{
+    width: 64px;
+    height: 2px;
+    border: none;
+    margin: 0 auto 30px auto;
+}
+
+.header__subtitle{
+    color: #86878b;
+}
+
+.subtitle{
+    font-size: 14px;
+    margin: 0;
+    line-height: 1;   
+}
+
+/*================================= header end =================================*/
+
+
+/*================================= header start =================================*/
+
+.cards{
+    font-size: 0;
+    padding-bottom: 60px;
+}
+
+.items {
+    display: inline-block;
+    width: 350px;
+    margin: 0px 16px 42px 16px;
+}
+
+.items_pic-wrap{
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: 0 auto 29px auto;
+}
+
+.light{
+    background: url('../img/light.png') no-repeat center;
+}
+
+.keyboard{
+    background: url('../img/keyboard.png') no-repeat center;
+}
+
+.lightning{
+    background: url('../img/lightning.png') no-repeat center;
+}
+
+.items_title {
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
+    margin: 0 0 25px 0;
+}
+
+.items_subtitle {
+    color: #86878b;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+/*================================= header end =================================*/
+
+/*================================= stylish start =================================*/
+
+.stylish{
+    background: url(../img/background.jpg) no-repeat center,
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 63px;
+    color: #fff; 
+    background-color: #000;
+}
+
+.stylish__line {
+    background-color: #fff;
+}
+
+.stylish__subtitle {
+    margin-bottom: 33px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.stylish__btn {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn {
+    padding: 15px 33px;
+    background: none;
+    border: 2px solid;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.btn:focus{
+   outline: 0;
+}
+
+/*================================= stylish end =================================*/
+
+/*================================= footer start =================================*/
+.footer {
+    background: #000;
+    padding-top: 39px;
+    padding-bottom: 15px;
+}
+
+.social{
+    margin: 0;
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-size: 0;
+}
+
+.social__item {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.social__link{
+    display: block;
+}
+
+.social_pic{
+    width: 29px;
+    height: 29px;
+}
+
+.footer__copyright {
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+}
+/*================================= footer end =================================*/
