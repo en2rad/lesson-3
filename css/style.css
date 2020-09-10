@@ -1,67 +1,66 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.wrapper{
+.wrapper {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
 /*================================= header start =================================*/
 
-header{
+header {
     padding-top: 106px;
     padding-bottom: 80px;
 }
 
-.header__title{
+.header__title {
     color: #212121;
 }
 
-.title{
-    font-family: 'Raleway', sans-serif;
-    font-size: 36px; 
-    text-transform: uppercase;
-    font-weight: 400;
-    line-height: 26px;
-    margin-bottom: 30px;
+.title {
     margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+	text-transform: uppercase;
 }
 
-.header__line{
+.header__line {
     background: #ff8c2c;
 }
 
-.line{
+.line {
     width: 64px;
     height: 2px;
-    border: none;
     margin: 0 auto 30px auto;
+    border: none;
 }
 
-.header__subtitle{
+.header__subtitle {
     color: #86878b;
 }
 
-.subtitle{
-    font-size: 14px;
+.subtitle {
     margin: 0;
+    font-size: 14px;
     line-height: 1;   
 }
 
 /*================================= header end =================================*/
 
-
 /*================================= header start =================================*/
 
-.cards{
-    font-size: 0;
+.cards {
     padding-bottom: 60px;
+    font-size: 0;
 }
 
 .items {
@@ -70,53 +69,50 @@ header{
     margin: 0px 16px 42px 16px;
 }
 
-.items_pic-wrap{
-    border: 2px solid #ff8b38;
-    border-radius: 50%;
+.items_pic-wrap {
     width: 70px;
     height: 70px;
     margin: 0 auto 29px auto;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
 }
 
-.light{
+.light {
     background: url('../img/light.png') no-repeat center;
 }
 
-.keyboard{
+.keyboard {
     background: url('../img/keyboard.png') no-repeat center;
 }
 
-.lightning{
+.lightning {
     background: url('../img/lightning.png') no-repeat center;
 }
 
 .items_title {
-    color: #333;
-    font-size: 20px;
-    text-align: center;
-    line-height: 1;
     margin: 0 0 25px 0;
+    font-size: 20px;
+    line-height: 1;
+    color: #333;
 }
 
 .items_subtitle {
-    color: #86878b;
-    font-size: 14px;
-    text-align: center;
     margin: 0;
+    font-size: 14px;
+    color: #86878b;
 }
 
 /*================================= header end =================================*/
 
 /*================================= stylish start =================================*/
 
-.stylish{
+.stylish {
+    padding-top: 75px;
+    padding-bottom: 63px;
     background: url(../img/background.jpg) no-repeat center,
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
-    padding-top: 75px;
-    padding-bottom: 63px;
-    color: #fff; 
-    background-color: #000;
+    color: #fff;
 }
 
 .stylish__line {
@@ -125,12 +121,12 @@ header{
 
 .stylish__subtitle {
     margin-bottom: 33px;
-    font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .stylish__btn {
-    color: #fff;
+    color: rgb(5, 5, 5);
     border-color: #fff;
 }
 
@@ -143,24 +139,25 @@ header{
     font-family: inherit;
 }
 
-.btn:focus{
+.btn:focus {
     outline: 0;
 }
 
 /*================================= stylish end =================================*/
 
 /*================================= footer start =================================*/
+
 .footer {
-    background: #000;
     padding-top: 39px;
     padding-bottom: 15px;
+    background: #000;
 }
 
-.social{
+.social {
     margin: 0;
-    list-style-type: none;
     margin-bottom: 15px;
     font-size: 0;
+    list-style-type: none;
 }
 
 .social__item {
@@ -168,18 +165,19 @@ header{
     margin: 0 15px;
 }
 
-.social__link{
+.social__link {
     display: block;
 }
 
-.social_pic{
+.social_pic {
     width: 29px;
     height: 29px;
 }
 
 .footer__copyright {
-    color: #fff;
-    font-size: 12px;
     margin: 0;
+    font-size: 12px;
+    color: #fff;
 }
+
 /*================================= footer end =================================*/
